@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 10px;
+    background-color: aqua;
+}
+
+nav{
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: 300px;
+    background-color: coral;
+    position: relative;
+}
+
+section h2{
+    position: absolute;
+    top: 30px;
+}
+
+section .p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section p {
+    float: left;
+    width: 33.333%;
+    margin: 0;
+    padding: 10px;
+    height: 200px;
+}
+
+footer{
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
