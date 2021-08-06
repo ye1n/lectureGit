@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 10px;
+    background-color: aqua;
+}
+
+nav{
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+nav>a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+section{
+    padding: 10px;
+    background-color: coral;
+}
+
+footer{
+    padding: 10px;
+    background-color: darkgoldenrod;
+}
